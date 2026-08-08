@@ -91,15 +91,33 @@ body > p:nth-of-type(n+3) {
   margin: 4px 0;
 }
 
-.foro-container {
+.foro-card {
   width: 100%;
-  max-width: 700px;
+  max-width: 500px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 16px;
-  overflow: hidden;
+  padding: 30px;
+  text-align: center;
   margin: 30px 0;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.btn-foro {
+  display: inline-block;
+  background-color: #ff4500; /* Color clásico de Reddit */
+  color: white !important;
+  padding: 10px 20px;
+  border-radius: 8px;
+  margin-top: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  transition: background 0.2s;
+}
+
+.btn-foro:hover {
+  background-color: #ff5722;
+  text-decoration: none;
 }
