@@ -184,3 +184,8 @@ body > p:nth-of-type(n+3) {
     text-align: center;
   }
 }
+
+a{
+  color: #ff6600;
+  font-weight: bold;
+}
